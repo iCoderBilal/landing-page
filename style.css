@@ -1319,6 +1319,8 @@ top: 80.61px;
 
 
 
+
+
 .reviews .review-heading-paragraph h1{
     font-family: 'Rubik', sans-serif;
 font-size: 35px;
@@ -1367,6 +1369,7 @@ border: 2px solid #DDDDDD;;
 box-sizing: border-box;
 border-radius: 10px;
 cursor: pointer;
+transition: all .3s ease;
 }
 
 .reviews .first-review:hover{
@@ -1483,11 +1486,12 @@ top: 4094.25px;
 border: 2px solid #DDDDDD;
 box-sizing: border-box;
 border-radius: 10px;
-background-color: white;
+background-color: #F53838;
+transition: all .3s ease;
 }
 
 .reviews .main-reviews .second-review:hover{
-    border: 2px solid #F53838;
+    border: 2px solid black;
 }
 
 .reviews .main-reviews .second-review img{
@@ -1514,7 +1518,7 @@ display: flex;
 align-items: center;
 text-align: center;
 
-color: #0B132A;
+color: white;
 }
 .reviews .main-reviews .second-review p{
 
@@ -1535,7 +1539,7 @@ display: flex;
 align-items: center;
 text-align: center;
 
-color: #4F5665;}
+color: grey;}
 
 
 .reviews .main-reviews .second-review content{
@@ -1555,7 +1559,7 @@ line-height: 30px;
 display: flex;
 align-items: center;
 
-color: #0B132A;
+color: white;
 
 }
 
@@ -1586,7 +1590,7 @@ display: flex;
 align-items: center;
 text-align: justify;
 
-color: #0B132A;
+color: white;
 }
 
 
@@ -1602,6 +1606,7 @@ border: 2px solid #DDDDDD;
 box-sizing: border-box;
 border-radius: 10px;
 background-color: white;
+transition: all .3s ease; 
 }
 .reviews .third-review:hover{
     border: 2px solid #F53838;
@@ -1704,4 +1709,85 @@ align-items: center;
 text-align: justify;
 
 color: #0B132A;
+}
+
+
+
+
+.before-footer{
+    position: absolute;
+width: 1140px;
+height: 233px;
+left: 150px;
+top: 4450.28px;
+background-color: white;
+}
+
+.before-footer .section-heading h2{
+    position: absolute;
+    width: 371.61px;
+    height: 80px;
+    left: 70px;
+    top: 25.5px;
+    
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 45px;
+    /* or 129% */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #0B132A;
+}
+
+.before-footer .section-heading p{
+
+
+position: absolute;
+width: 410px;
+height: 16px;
+left: 70px;
+top: 140px;
+
+font-family: 'Rubik', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 30px;
+/* or 187% */
+
+display: flex;
+align-items: center;
+
+color: #4F5665;
+
+}
+.before-footer .section-heading button{
+position: absolute;
+width: 250px;
+height: 60px;
+left: 820px;
+top: 80px;
+
+background: #F53838;
+border-radius: 10px;
+border:none;
+
+
+
+cursor: pointer;
+
+font-family: 'Rubik', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 25px;
+/* identical to box height, or 156% */
+
+
+color: #FFFFFF;
+
 }
