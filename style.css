@@ -4,7 +4,7 @@ body{
     background: #F6F6F6;
     padding: 0;
     margin: 0;
-    height: 5000px;
+  
 }
 header{
     display: flex;
@@ -1798,10 +1798,10 @@ footer{
 width: 1440px;
 height: 563.12px;
 
-z-index: -1;
-top: 4570.78px;
 
-background: pink;
+top: 4570.78px;
+z-index: -1;
+background: #F8F8F8;
 }
 
 
@@ -1811,5 +1811,293 @@ width: 149px;
 height: 36.23px;
 left: 150px;
 top: 160px;
-display: flex;
+
 }
+
+footer .first-heading{
+    font-family: 'Rubik', sans-serif;
+    width: 340px;
+height: 61.57px;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 30px;
+/* or 187% */
+
+
+color: #4F5665;
+}
+
+footer .first-heading .first-icon{
+    position: absolute;
+   top: 140px;
+   left: -20px;
+
+}
+
+footer .first-heading .second-icon{
+    position: absolute;
+    top: 140px;
+    left: 40px;
+
+   
+  
+
+}
+
+footer .first-heading .third-icon{
+    position: absolute;
+    top: 140px;
+    left: 100px;
+   
+   
+
+}
+
+
+footer .first-heading content{
+    position: absolute;
+    top: 200px;
+    
+    font-family: 'Rubik', sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+color: #AFB5C0;
+
+
+}
+
+footer .second-heading{
+    position: absolute;
+    left: 560px;
+   top: -10px;
+
+
+}
+
+footer .second-heading .second-heading-first-div{
+    font-family: 'Rubik', sans-serif;
+font-style: normal;
+font-weight: 500;
+
+line-height: 30px;
+/* identical to box height, or 167% */
+
+
+color: #0B132A;
+}
+
+footer .second-heading .second-heading-second-div{
+    list-style-type: none;
+    
+   
+}
+
+footer .second-heading ul{
+    list-style-type: none;
+    margin-left: -2.6rem;
+
+
+}
+
+footer .second-heading a{
+    font-family: 'Rubik', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 187% */
+
+
+color: #4F5665;
+cursor: pointer;
+}
+
+footer .second-heading li{
+    cursor: pointer;
+}
+
+footer .second-heading .second-li{
+   position: absolute;
+   top: 103px;
+}
+
+footer .second-heading .third-li{
+    position: absolute;
+    top: 135px;
+ }
+
+ footer .second-heading .fourth-li{
+    position: absolute;
+    top: 165px;
+ }
+
+ footer .second-heading .fifth-li{
+    position: absolute;
+    top: 195px;
+ }
+
+ footer .second-heading .sixth-li{
+    position: absolute;
+    top: 225px;
+ }
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ footer .third-heading{
+    position: absolute;
+    left: 800px;
+   top: -10px;
+
+
+}
+
+footer .third-heading .third-heading-first-div{
+    font-family: 'Rubik', sans-serif;
+font-style: normal;
+font-weight: 500;
+
+line-height: 30px;
+/* identical to box height, or 167% */
+
+
+color: #0B132A;
+}
+
+footer .third-heading .third-heading-second-div{
+    list-style-type: none;
+    
+   
+}
+
+footer .third-heading ul{
+    list-style-type: none;
+    margin-left: -2.6rem;
+
+
+}
+
+footer .third-heading a{
+    font-family: 'Rubik', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 187% */
+
+
+color: #4F5665;
+cursor: pointer;
+}
+
+footer .second-heading li{
+    cursor: pointer;
+}
+
+footer .third-heading .third-second-li{
+   position: absolute;
+   top: 105px;
+}
+
+footer .third-heading .third-third-li{
+    position: absolute;
+    top: 135px;
+ }
+
+ footer .third-heading .third-fourth-li{
+    position: absolute;
+    top: 165px;
+ }
+
+ footer .third-heading .third-fifth-li{
+    position: absolute;
+    top: 195px;
+    width: 150px;
+ }
+
+ footer .third-heading .third-sixth-li{
+    position: absolute;
+    top: 225px;
+    width: 150px;
+ }
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+ footer .fourth-heading{
+    position: absolute;
+    left: 1010px;
+   top: -10px;
+
+
+}
+
+footer .fourth-heading .fourth-heading-first-div{
+    font-family: 'Rubik', sans-serif;
+font-style: normal;
+font-weight: 500;
+
+line-height: 30px;
+/* identical to box height, or 167% */
+
+
+color: #0B132A;
+}
+
+footer .fourth-heading .fourth-heading-second-div{
+    list-style-type: none;
+    
+   
+}
+
+footer .fourth-heading ul{
+    list-style-type: none;
+    margin-left: -2.6rem;
+
+
+}
+
+footer .fourth-heading a{
+    font-family: 'Rubik', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 187% */
+
+
+color: #4F5665;
+cursor: pointer;
+}
+
+footer .fourth-heading li{
+    cursor: pointer;
+}
+
+footer .fourth-heading .fourth-second-li{
+   position: absolute;
+   top: 105px;
+   width: 150px;
+}
+
+
